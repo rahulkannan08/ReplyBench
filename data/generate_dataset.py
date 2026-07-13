@@ -116,10 +116,10 @@ def generate_dataset(output_path: str = None) -> list[EmailScenario]:
                 scenario.prior_thread_summary = None
 
             scenarios.append(scenario)
-            print(f"  ✓ {spec['id']} generated successfully")
+            print(f"  [OK] {spec['id']} generated successfully")
 
         except Exception as e:
-            print(f"  ✗ {spec['id']} FAILED: {e}")
+            print(f"  [FAIL] {spec['id']} FAILED: {e}")
             failed.append(spec["id"])
 
     # Save to disk
