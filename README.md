@@ -238,7 +238,7 @@ python validate_metric.py
 
 ## 8. AI Tools Used
 
-- **Google Gemini API** (`gemini-2.5-flash`) — primary LLM for dataset generation, reply generation, and LLM-as-judge evaluation
+- **Google Gemini API** (`gemini-3.1-flash-lite`) — primary LLM for dataset generation, reply generation, and LLM-as-judge evaluation
 - **Groq API** (`llama-3.3-70b-versatile`) — automatic fallback when Gemini fails
 - **AI coding assistant** — used for code generation, architecture planning, and documentation drafting
 
