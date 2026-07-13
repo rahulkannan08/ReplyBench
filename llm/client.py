@@ -59,7 +59,7 @@ def _call_gemini(prompt: str) -> tuple[str, float]:
 
     start = time.time()
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-3.5-flash",
         contents=prompt,
     )
     latency = time.time() - start
@@ -122,15 +122,31 @@ def call_llm(
             return text
 
         except Exception as e:
+            error_str = str(e)
             gemini_errors.append(f"attempt {attempt + 1}: {e}")
             _log(
                 f"  [LLM] [FAIL] Gemini attempt {attempt + 1}/{max_retries + 1} "
-                f"failed: {type(e).__name__}"
+                f"failed: {type(e).__name__} - {error_str[:120]}"
             )
             if attempt < max_retries:
-                backoff = 1.5 ** (attempt + 1)
-                _log(f"  [LLM]   Retrying in {backoff:.1f}s...")
-                time.sleep(backoff)
+                # If 429 or 503 or resource exhausted, sleep a bit longer
+                is_rate_limit = any(x in error_str.upper() for x in ["429", "RESOURCE_EXHAUSTED", "LIMIT", "UNAVAILABLE", "503"])
+                if is_rate_limit:
+                    # Try to parse retry delay
+                    retry_delay = 5.0
+                    try:
+                        import re as _re
+                        delay_match = _re.search(r"retry in ([\d.]+)s", error_str.lower())
+                        if delay_match:
+                            retry_delay = float(delay_match.group(1)) + 0.5
+                    except Exception:
+                        pass
+                    _log(f"  [LLM] [WARN] Gemini rate-limited/unavailable, waiting {retry_delay:.1f}s...")
+                    time.sleep(retry_delay)
+                else:
+                    backoff = 1.5 ** (attempt + 1)
+                    _log(f"  [LLM]   Retrying in {backoff:.1f}s...")
+                    time.sleep(backoff)
 
     # --- Fallback to Groq (with 1 retry on rate limit) ---
     _log("  [LLM] >> Falling back to Groq...")
