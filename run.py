@@ -126,14 +126,14 @@ def main():
     print(f"\n  Dataset split: {len(pool_entries)} pool + {len(test_entries)} test")
 
     # --- Phase 2: Reply Generation ---
-    replies = generate_replies(pool_entries, test_entries, max_workers=5)
+    replies = generate_replies(pool_entries, test_entries, max_workers=3)
 
     if not replies:
         print("\n[ERROR] No replies generated. Cannot evaluate. Exiting.")
         sys.exit(1)
 
     # --- Phase 3: Evaluation ---
-    evaluations = evaluate_replies(scenarios, replies, max_workers=3)
+    evaluations = evaluate_replies(scenarios, replies, max_workers=2)
 
     if not evaluations:
         print("\n[ERROR] No evaluations completed. Exiting.")
