@@ -90,6 +90,10 @@ SCORING RUBRIC:
 
 Score honestly. Most decent replies should score 6-8. Reserve 9-10 for genuinely excellent work. Don't inflate.
 
+USE THE FULL 0-10 RANGE. Do NOT cluster all scores near 7-8. A bad reply MUST score low:
+- Example of a 1-2 reply: "Thanks for your email! Everything is great on our end. Have you tried turning it off and on again?" (dismissive, ignores the issue, no empathy, no next step)
+- Example of a 9-10 reply: Directly addresses the specific issue, provides a concrete resolution path, stays within known facts, makes no unsupported promises.
+
 Respond with a JSON object with keys "relevance", "correctness_faithfulness", "safety_compliance", each containing "score" (float) and "justification" (one sentence)."""
 
     try:
