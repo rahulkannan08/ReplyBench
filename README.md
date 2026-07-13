@@ -160,8 +160,9 @@ We deliberately chose 6 clearly-distinct dimensions over 8 with overlap. Two can
 1. **Synthetic data** — no real customer emails. Synthetic data may not capture real-world edge cases, ambiguity, or the messy diversity of actual customer writing.
 2. **Lexicon-based tone scoring** — keyword matching is simplistic. A reply could use apologetic words sarcastically and still score well. A proper sentiment model would be better but is explicitly excluded from scope.
 3. **No real feedback loop** — we can't validate whether high-scoring replies actually satisfy real customers. The metric is defensible but unvalidated against ground truth.
-4. **LLM-as-judge bias** — the judge LLM may have systematic biases (e.g., preferring longer replies, favoring certain phrasings). We mitigate with a detailed rubric and explicit "don't inflate" instruction.
+4. **LLM-as-judge bias** — the judge LLM may have systematic biases (e.g., preferring longer replies, favoring certain phrasings). We mitigate with a detailed rubric and explicit "don't inflate" instruction. In practice, we observed score clustering at round integers (e.g., all responses scoring 8/9/9 on judge dimensions) — the per-response justifications show genuine per-item reasoning, but the numeric resolution is coarse. A more capable judge model or multi-judge consensus would improve discrimination.
 5. **Small dataset** — 20 entries with 5 evaluated is enough to demonstrate the system but not enough for statistical significance.
+6. **Fallback-as-judge** — when Gemini rate-limits and Groq serves the judge calls, the evaluation quality may differ from the primary model. Ideally, the judge would always use the same model for consistency.
 
 ---
 
