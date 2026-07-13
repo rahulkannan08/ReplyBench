@@ -53,7 +53,7 @@ def _extract_json(text: str) -> str:
 
 def _call_gemini(prompt: str) -> tuple[str, float]:
     """Call Gemini API via google.genai, return (response_text, latency_seconds)."""
-    from google import genai
+    from google import genai  # type: ignore
 
     client = genai.Client(api_key=GEMINI_API_KEY)
 
@@ -69,7 +69,7 @@ def _call_gemini(prompt: str) -> tuple[str, float]:
 
 def _call_groq(prompt: str) -> tuple[str, float]:
     """Call Groq API, return (response_text, latency_seconds)."""
-    from groq import Groq
+    from groq import Groq  # type: ignore
 
     client = Groq(api_key=GROQ_API_KEY)
 
