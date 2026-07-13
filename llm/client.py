@@ -59,7 +59,7 @@ def _call_gemini(prompt: str) -> tuple[str, float]:
 
     start = time.time()
     response = client.models.generate_content(
-        model="gemini-3.5-flash",
+        model="gemini-3.1-flash-lite",
         contents=prompt,
     )
     latency = time.time() - start

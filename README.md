@@ -23,7 +23,7 @@ Our answer: accuracy is multi-dimensional. A reply can be well-written but off-t
 | Layer | Choice | Rationale |
 |-------|--------|-----------|
 | Language | Python 3.11+ | Modern type hints, clean syntax |
-| Primary LLM | Google Gemini API (`gemini-3.5-flash`) via `google-genai` | Fast, free-tier (1500 RPD), structured output support |
+| Primary LLM | Google Gemini API (`gemini-3.1-flash-lite`) via `google-genai` | Fast, free-tier (1500 RPD), structured output support |
 | Fallback LLM | Groq API (`llama-3.3-70b-versatile`) via `groq` SDK | Low-latency fallback for reliability |
 | Validation | Pydantic v2 | All LLM structured outputs validated before use |
 | Config | python-dotenv | Keys from `.env`, never hardcoded |
