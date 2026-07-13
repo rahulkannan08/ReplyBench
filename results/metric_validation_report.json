@@ -1,0 +1,97 @@
+{
+  "summary": {
+    "case_a_mean_composite": 8.12,
+    "case_b_mean_composite": 1.26,
+    "mean_gap": 6.86,
+    "validation_passed": true
+  },
+  "cases": [
+    {
+      "scenario_id": "email_001",
+      "category": "billing",
+      "sentiment": "angry",
+      "case_a_composite": 8.45,
+      "case_a_scores": {
+        "conciseness": 10.0,
+        "tone_appropriateness": 10.0,
+        "completeness": 9.0,
+        "semantic_similarity": 10.0,
+        "relevance": 7.0,
+        "correctness_faithfulness": 9.0,
+        "safety_compliance": 6.0
+      },
+      "case_b_composite": 0.86,
+      "case_b_scores": {
+        "conciseness": 5.2,
+        "tone_appropriateness": 0.0,
+        "completeness": 2.0,
+        "semantic_similarity": 0.0,
+        "relevance": 0.0,
+        "correctness_faithfulness": 1.0,
+        "safety_compliance": 1.0
+      },
+      "gap": 7.59
+    },
+    {
+      "scenario_id": "email_002",
+      "category": "billing",
+      "sentiment": "confused",
+      "case_a_composite": 6.8,
+      "case_a_scores": {
+        "conciseness": 10.0,
+        "tone_appropriateness": 1.5,
+        "completeness": 7.0,
+        "semantic_similarity": 10.0,
+        "relevance": 7.0,
+        "correctness_faithfulness": 6.0,
+        "safety_compliance": 7.0
+      },
+      "case_b_composite": 1.6,
+      "case_b_scores": {
+        "conciseness": 5.0,
+        "tone_appropriateness": 0.0,
+        "completeness": 2.0,
+        "semantic_similarity": 0.0,
+        "relevance": 1.0,
+        "correctness_faithfulness": 2.0,
+        "safety_compliance": 3.0
+      },
+      "gap": 5.2
+    },
+    {
+      "scenario_id": "email_003",
+      "category": "billing",
+      "sentiment": "neutral",
+      "case_a_composite": 9.1,
+      "case_a_scores": {
+        "conciseness": 10.0,
+        "tone_appropriateness": 10.0,
+        "completeness": 9.0,
+        "semantic_similarity": 10.0,
+        "relevance": 8.0,
+        "correctness_faithfulness": 9.0,
+        "safety_compliance": 9.0
+      },
+      "case_b_composite": 1.31,
+      "case_b_scores": {
+        "conciseness": 8.2,
+        "tone_appropriateness": 0.0,
+        "completeness": 5.0,
+        "semantic_similarity": 0.0,
+        "relevance": 2.0,
+        "correctness_faithfulness": 0.0,
+        "safety_compliance": 0.0
+      },
+      "gap": 7.79
+    }
+  ],
+  "weights_used": {
+    "correctness_faithfulness": 0.25,
+    "relevance": 0.2,
+    "safety_compliance": 0.15,
+    "semantic_similarity": 0.15,
+    "completeness": 0.1,
+    "tone_appropriateness": 0.1,
+    "conciseness": 0.05
+  }
+}
