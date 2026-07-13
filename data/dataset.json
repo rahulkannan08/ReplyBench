@@ -1,0 +1,403 @@
+[
+  {
+    "id": "email_001",
+    "subject": "Unacceptable Billing Error on My Account",
+    "customer_email_body": "I am beyond frustrated with the billing error I'm seeing on my account. I've been charged twice for the same month and I demand this gets sorted ASAP. I've already spoken to someone on your team about this and they said it would be resolved, but nothing has changed. This is completely unacceptable and I expect a prompt resolution to this issue.",
+    "category": "billing",
+    "sentiment": "angry",
+    "urgency": "high",
+    "prior_thread_summary": "I previously spoke with a support agent who acknowledged the error and said it would be corrected, but the issue persists.",
+    "reference_reply": "I apologize sincerely for the frustration and inconvenience caused by the billing error on your account. I understand that this issue was previously discussed, and I regret that it hasn't been resolved yet. I'm going to escalate this matter to our billing team to ensure it's corrected immediately. You will receive a confirmation email once the correction has been made, and if necessary, a refund will be processed. Please allow our team a short time to investigate and resolve this issue.",
+    "reference_reply_key_points": [
+      "The billing error will be escalated to the billing team for immediate correction.",
+      "A confirmation email will be sent once the correction is made.",
+      "If necessary, a refund will be processed."
+    ],
+    "ideal_reply_traits": [
+      "Empathetic acknowledgment of the customer's frustration",
+      "Clear explanation of the next steps to resolve the issue",
+      "Specific mention of a timeline for resolution or follow-up"
+    ]
+  },
+  {
+    "id": "email_002",
+    "subject": "Help with billing on my account",
+    "customer_email_body": "Hi, I'm a bit confused about the billing for my shared inbox account. I signed up for a plan that said it was $X per user, but my latest invoice says I owe $Y. Can someone explain to me how the pricing works and why I'm being charged this amount? I'd really appreciate it if you could break it down for me.",
+    "category": "billing",
+    "sentiment": "confused",
+    "urgency": "medium",
+    "prior_thread_summary": null,
+    "reference_reply": "I'd be happy to help clarify the billing for your account. Our team reviews the usage and billing details for each account to ensure accuracy. It's possible that there was a change in the number of users or a feature add-on that affected your invoice. I'll request our billing team to review your account and provide a detailed breakdown of the charges. You can expect to hear back from us within the next 24-48 hours with an explanation and any necessary corrections.",
+    "reference_reply_key_points": [
+      "The billing team will review the account for accuracy",
+      "A detailed breakdown of charges will be provided",
+      "The customer can expect a response within 24-48 hours"
+    ],
+    "ideal_reply_traits": [
+      "Clear and concise explanation",
+      "Empathetic tone",
+      "Specific next steps and timelines"
+    ]
+  },
+  {
+    "id": "email_003",
+    "subject": "Question about my billing plan",
+    "customer_email_body": "Hi, I'm using the shared inbox platform and I had a question about my billing. I think I'm on the wrong plan and I want to make sure I'm not overpaying. Can someone help me figure out which plan I'm on and if I can switch to a different one?",
+    "category": "billing",
+    "sentiment": "neutral",
+    "urgency": "low",
+    "prior_thread_summary": null,
+    "reference_reply": "Thank you for reaching out to us about your billing plan. I'd be happy to help you review your account and determine the best plan for your needs. Our team will review your account and get back to you with some options for adjusting your plan. In the meantime, could you please confirm the email address associated with your account so we can look into this further?",
+    "reference_reply_key_points": [
+      "Our team will review the customer's account",
+      "We will provide options for adjusting the billing plan",
+      "The customer needs to confirm their email address associated with the account"
+    ],
+    "ideal_reply_traits": [
+      "Clear and concise language",
+      "Helpful and proactive tone",
+      "Specific next steps or actions"
+    ]
+  },
+  {
+    "id": "email_004",
+    "subject": "Shared Inbox Not Updating",
+    "customer_email_body": "I'm extremely frustrated with the shared inbox feature. It's not updating and my team is missing critical emails. We've tried logging out and back in, but nothing is working. This is the second time this has happened this month and it's unacceptable. We had previously discussed this issue and your team said it was resolved, but clearly it's not.",
+    "category": "bug_report",
+    "sentiment": "angry",
+    "urgency": "high",
+    "prior_thread_summary": "We had previously discussed a similar issue with the shared inbox not updating, and the support team provided a workaround that temporarily resolved the issue.",
+    "reference_reply": "I apologize for the frustration and inconvenience caused by the shared inbox not updating. I understand that this is the second time this has happened this month, and I'll make sure to escalate this issue to our engineering team to get a permanent fix. In the meantime, I can offer a temporary workaround to ensure your team doesn't miss any critical emails. Please let me know if you'd like me to walk you through it.",
+    "reference_reply_key_points": [
+      "The support team apologizes for the frustration and inconvenience caused",
+      "The issue will be escalated to the engineering team for a permanent fix",
+      "A temporary workaround is available to ensure no critical emails are missed"
+    ],
+    "ideal_reply_traits": [
+      "Empathetic tone to acknowledge the customer's frustration",
+      "Clear explanation of the next steps to resolve the issue",
+      "Offer of a temporary solution to mitigate the impact of the bug"
+    ]
+  },
+  {
+    "id": "email_005",
+    "subject": "Having trouble with shared inbox",
+    "customer_email_body": "Hi, I'm having some issues with the shared inbox feature. I'm not sure how to set it up properly. I've tried following the instructions, but I'm still getting errors. Can you help me figure out what's going on? I'm not even sure if I've set up the inbox correctly. Do I need to do something with the settings or is it a problem with my account?",
+    "category": "bug_report",
+    "sentiment": "confused",
+    "urgency": "medium",
+    "prior_thread_summary": null,
+    "reference_reply": "Sorry to hear you're having trouble with our shared inbox feature. I'd be happy to help you get it set up correctly. Can you please try clearing your browser cache and then restart the setup process? If you're still having issues, our team will be happy to take a closer look at your account and provide further assistance. Please let me know if there's anything else I can do to help.",
+    "reference_reply_key_points": [
+      "Clear browser cache and restart setup process",
+      "Our team will review your account for further assistance",
+      "Additional help is available if needed"
+    ],
+    "ideal_reply_traits": [
+      "Clear and concise instructions",
+      "Empathetic tone",
+      "Specific next steps for the customer",
+      "Offer of further assistance"
+    ]
+  },
+  {
+    "id": "email_006",
+    "subject": "Issue with shared inbox not updating",
+    "customer_email_body": "Hi support, our shared inbox hasnt been updating for the past hour. We've tried refreshing and logging out/in but nothing seems to work. This is causing some delays in our workflow. We previously had an issue with our account setup and your team helped us resolve it, but this seems like a different problem.",
+    "category": "bug_report",
+    "sentiment": "neutral",
+    "urgency": "high",
+    "prior_thread_summary": "We had an issue with our account setup last week and the support team helped us resolve it. The issue was related to our user permissions.",
+    "reference_reply": "Sorry to hear that your shared inbox is not updating. I'm going to escalate this issue to our technical team so they can investigate and resolve the problem as soon as possible. In the meantime, I can offer you a workaround to ensure your team's workflow is not heavily impacted. Please let me know if you'd like me to provide that. I'll also keep you updated on the status of the issue and let you know as soon as it's resolved.",
+    "reference_reply_key_points": [
+      "The issue will be escalated to the technical team for investigation",
+      "A workaround may be available to mitigate the impact on the customer's workflow",
+      "The customer will be kept updated on the status of the issue"
+    ],
+    "ideal_reply_traits": [
+      "Empathetic and acknowledging of the customer's problem",
+      "Clear and concise in explaining the next steps",
+      "Proactive in offering a workaround or solution"
+    ]
+  },
+  {
+    "id": "email_007",
+    "subject": "Unacceptable Service and Refund Request",
+    "customer_email_body": "I am writing to express my extreme frustration with your platform. Despite numerous attempts to get assistance, my issues remain unresolved. The lack of support and constant bugs have made it impossible for me to use your service effectively. I demand a full refund for my subscription and expect a prompt response regarding the actions you will take to address my complaints.",
+    "category": "refund_request",
+    "sentiment": "angry",
+    "urgency": "high",
+    "prior_thread_summary": null,
+    "reference_reply": "Dear valued customer, I apologize sincerely for the subpar experience you've had with our platform. I understand how frustrating it can be to face unresolved issues and inadequate support. I'm committed to making things right. Our team will review your account and work on processing your refund request as soon as possible. In the meantime, I'd like to offer you a direct line of communication to ensure your concerns are addressed promptly. Please allow me to escalate your case to our dedicated support team for a thorough investigation and resolution.",
+    "reference_reply_key_points": [
+      "The customer's account will be reviewed for refund processing",
+      "A direct line of communication will be offered for prompt issue resolution",
+      "The case will be escalated to a dedicated support team for thorough investigation"
+    ],
+    "ideal_reply_traits": [
+      "Empathetic tone to acknowledge customer frustration",
+      "Clear action plan for addressing customer concerns",
+      "Proactive approach to preventing future issues"
+    ]
+  },
+  {
+    "id": "email_008",
+    "subject": "Request for Refund for Unused Services",
+    "customer_email_body": "Hi support team, I'm reaching out because I'd like to request a refund for the unused portion of my subscription. I downsized my team and no longer need the extra features. We previously discussed my account details and I was told I could get a refund if I cancelled before the next billing cycle. Can you please let me know the next steps to get this processed?",
+    "category": "refund_request",
+    "sentiment": "neutral",
+    "urgency": "medium",
+    "prior_thread_summary": "The customer had previously reached out to discuss their account details and potential downgrade options. Our team provided information on the cancellation policy and refund process.",
+    "reference_reply": "Thank you for reaching out to us about your refund request. We apologize for any inconvenience this may have caused and are happy to assist you with the process. To proceed, our team will need to review your account and verify the unused services. We will be in touch within the next 24-48 hours to confirm the next steps and provide an update on the status of your refund.",
+    "reference_reply_key_points": [
+      "The support team will review the customer's account to verify unused services",
+      "The customer will be contacted within 24-48 hours with an update on the refund status",
+      "The refund process will be facilitated according to the company's cancellation policy"
+    ],
+    "ideal_reply_traits": [
+      "Clear explanation of the next steps in the refund process",
+      "Empathetic tone and acknowledgement of the customer's situation",
+      "Specific timeline for follow-up and resolution"
+    ]
+  },
+  {
+    "id": "email_009",
+    "subject": "Request for Refund for Unused Subscription",
+    "customer_email_body": "Hi there, I hope you're doing great! I just wanted to reach out because I realized I haven't been using my shared inbox subscription as much as I thought I would. I'm really happy with the service, but I think it's better for me to downgrade or cancel for now. Could you please help me with a refund for the unused portion of my subscription? I'd really appreciate it. Thanks so much for your help and I look forward to hearing back from you!",
+    "category": "refund_request",
+    "sentiment": "happy",
+    "urgency": "low",
+    "prior_thread_summary": null,
+    "reference_reply": "Thank you for reaching out to us about your subscription. We appreciate your kind words about our service and are happy to help you with your request. Our team will review your account and process a refund for the unused portion of your subscription as per our refund policy. We'll be in touch with you shortly to confirm the details. In the meantime, if you have any questions or need assistance with downgrading or canceling, please don't hesitate to let us know.",
+    "reference_reply_key_points": [
+      "The support team will review the customer's account",
+      "A refund will be processed for the unused portion of the subscription",
+      "The customer will be contacted to confirm the details"
+    ],
+    "ideal_reply_traits": [
+      "Empathetic and appreciative tone",
+      "Clear explanation of the next steps",
+      "Specific mention of the customer's request being addressed"
+    ]
+  },
+  {
+    "id": "email_010",
+    "subject": "Feature Request: Customizable Inbox Views",
+    "customer_email_body": "Hi Hiver team, hope you're all doing great! I just wanted to reach out and say how much I love using your platform for our team's shared inbox. It's been a total game-changer for our workflow. I did have a question though - is there a way to customize the inbox views? Like, can I create custom columns or filters? That would be super helpful for us. Thanks so much for your time and I look forward to hearing back from you!",
+    "category": "feature_question",
+    "sentiment": "happy",
+    "urgency": "low",
+    "prior_thread_summary": null,
+    "reference_reply": "Hi there, thanks so much for your kind words about Hiver! We're thrilled to hear that it's been a game-changer for your team. Regarding your question, we do offer customizable inbox views through our 'Custom Filters' feature. Our team can also help you set up custom columns if needed. I'll go ahead and create a ticket for our team to follow up with you on this. You can expect to hear back from us within the next 24 hours to discuss further.",
+    "reference_reply_key_points": [
+      "Hiver offers customizable inbox views through 'Custom Filters' feature",
+      "The support team can help set up custom columns if needed",
+      "A ticket will be created for follow-up within 24 hours"
+    ],
+    "ideal_reply_traits": [
+      "Warm and appreciative tone",
+      "Clear and concise explanation of the feature",
+      "Specific next step or action (creating a ticket)"
+    ]
+  },
+  {
+    "id": "email_011",
+    "subject": "Shared inbox and user roles",
+    "customer_email_body": "Hi, I'm having a bit of trouble understanding how the shared inbox works with different user roles. I've set up a few users with 'editor' permissions, but I'm not sure what that actually means they can do. Can someone help me figure this out? I feel like I'm missing something.",
+    "category": "feature_question",
+    "sentiment": "confused",
+    "urgency": "medium",
+    "prior_thread_summary": "The customer had previously asked about setting up a shared inbox and was provided with a link to the relevant documentation. However, they're still unclear on the specifics of user roles.",
+    "reference_reply": "Hi there, I'd be happy to help clarify the user roles in our shared inbox feature. The 'editor' role allows users to not only view conversations, but also respond to and assign tasks to other team members. If you'd like to learn more about the different roles and their capabilities, I can set up a quick call with one of our support specialists. Alternatively, you can find more information in our documentation, which I can provide a link to.",
+    "reference_reply_key_points": [
+      "The 'editor' role allows users to respond to and assign tasks to other team members",
+      "A support specialist can provide a call to clarify user roles and their capabilities",
+      "More information can be found in the platform's documentation"
+    ],
+    "ideal_reply_traits": [
+      "Clear and concise explanation of the feature",
+      "Offer of additional support or resources for further clarification",
+      "Empathetic tone to acknowledge the customer's confusion"
+    ]
+  },
+  {
+    "id": "email_012",
+    "subject": "Question about shared inbox features",
+    "customer_email_body": "Hi support, I'm trying to understand how to use the shared inbox feature in your platform. Can you tell me if it's possible to assign specific emails to team members and if there's a way to track the status of these emails? Thanks",
+    "category": "feature_question",
+    "sentiment": "neutral",
+    "urgency": "low",
+    "prior_thread_summary": null,
+    "reference_reply": "Hi there, thanks for reaching out. Yes, you can assign specific emails to team members using our shared inbox feature. To do this, simply select the email you'd like to assign and click on the 'Assign' button. You can then choose the team member you'd like to assign it to. As for tracking the status of these emails, you can use our 'Email Status' feature to see the current status of each email. If you have any more questions or need further assistance, our team is here to help. Next, I can offer you a quick walkthrough of our shared inbox feature if you'd like.",
+    "reference_reply_key_points": [
+      "You can assign specific emails to team members using the shared inbox feature",
+      "The 'Assign' button is used to assign emails to team members",
+      "The 'Email Status' feature can be used to track the status of assigned emails"
+    ],
+    "ideal_reply_traits": [
+      "Clear and concise language",
+      "Relevant and accurate information",
+      "Offer of further assistance or next steps"
+    ]
+  },
+  {
+    "id": "email_013",
+    "subject": "Question about custom workflows",
+    "customer_email_body": "Hi support team, hope you're doing great! I just wanted to follow up on our previous conversation about setting up custom workflows in our shared inbox. We're really loving the platform so far and I think this feature would take us to the next level. Could you let me know if there's any update on when we can expect this to be available? Thanks so much for your help!",
+    "category": "feature_question",
+    "sentiment": "happy",
+    "urgency": "medium",
+    "prior_thread_summary": "The customer had previously reached out to inquire about custom workflow capabilities and was informed that the feature was in development. They were asked to provide more details about their specific use case.",
+    "reference_reply": "Hi there, thanks for reaching out and for your kind words about our platform! We're excited to share that custom workflows are indeed on our roadmap and we're making good progress. Our team is currently working on finalizing the design and testing. We'll be in touch soon to gather more feedback from you and other customers to ensure we're meeting your needs. In the meantime, I can offer a sneak peek at our upcoming features if you're interested.",
+    "reference_reply_key_points": [
+      "Custom workflows are on the roadmap and in development",
+      "The support team will gather feedback from customers to ensure the feature meets their needs",
+      "A sneak peek at upcoming features is available upon request"
+    ],
+    "ideal_reply_traits": [
+      "Warm and appreciative tone to match the customer's sentiment",
+      "Clear and concise explanation of the feature's status",
+      "Offer of a specific next step or action to keep the customer engaged"
+    ]
+  },
+  {
+    "id": "email_014",
+    "subject": "Unacceptable Experience with Cancellation Process",
+    "customer_email_body": "I am writing to express my frustration with the cancellation process of your shared inbox platform. Despite my previous emails, I have not received any confirmation of my account cancellation. I have been charged again this month and I demand a refund. This is unacceptable and I expect a prompt resolution to this issue.",
+    "category": "cancellation",
+    "sentiment": "angry",
+    "urgency": "high",
+    "prior_thread_summary": "The customer had previously emailed the support team to request cancellation of their account, but did not receive a confirmation email. They had also asked about the refund process.",
+    "reference_reply": "I apologize for the frustration and inconvenience you've experienced with the cancellation process. I've escalated your issue to our team, and we will promptly review your account and process the cancellation. You will receive a confirmation email once this is done, and our team will also look into the refund for the incorrect charge. If you have any further questions or concerns, please don't hesitate to reach out.",
+    "reference_reply_key_points": [
+      "The support team will escalate the customer's issue and review their account",
+      "The customer will receive a confirmation email once the cancellation is processed",
+      "The team will look into the refund for the incorrect charge"
+    ],
+    "ideal_reply_traits": [
+      "Empathetic tone to acknowledge the customer's frustration",
+      "Clear explanation of the next steps to resolve the issue",
+      "Actionable steps to provide a prompt resolution"
+    ]
+  },
+  {
+    "id": "email_015",
+    "subject": "Cancel my shared inbox subscription",
+    "customer_email_body": "Hi, I'd like to cancel my shared inbox subscription. I no longer need the service and would like to stop being billed. Can you let me know what steps I need to take?",
+    "category": "cancellation",
+    "sentiment": "neutral",
+    "urgency": "medium",
+    "prior_thread_summary": null,
+    "reference_reply": "Thank you for reaching out to us about canceling your shared inbox subscription. I've gone ahead and submitted a cancellation request for your account. Our team will review and process this request shortly. You will receive a confirmation email once the cancellation is complete. If you have any questions or concerns in the meantime, please don't hesitate to reach out.",
+    "reference_reply_key_points": [
+      "A cancellation request has been submitted for your account",
+      "Our team will review and process the request shortly",
+      "You will receive a confirmation email once the cancellation is complete"
+    ],
+    "ideal_reply_traits": [
+      "Clear and concise language",
+      "Prompt acknowledgement of the customer's request",
+      "Provision of a specific next step or action"
+    ]
+  },
+  {
+    "id": "email_016",
+    "subject": "Cancellation and Refund Questions",
+    "customer_email_body": "Hi, I'm trying to cancel my account but I'm not sure how it works. Do I just stop paying and that's it? Will I still have access to my old emails? Can someone help me with this? I'm a bit confused about the whole process.",
+    "category": "cancellation",
+    "sentiment": "confused",
+    "urgency": "low",
+    "prior_thread_summary": null,
+    "reference_reply": "Hi there, thank you for reaching out. I'd be happy to help you with cancelling your account and answering any questions you have. To cancel, you can simply reply to this email and let us know, or you can do it yourself from within your account settings. Regarding access to old emails, our team will ensure that you have ample time to export any necessary data before your account is fully closed. We'll be in touch with more details on what to expect next.",
+    "reference_reply_key_points": [
+      "Reply to the email to initiate cancellation",
+      "Access to old emails will be available for a certain period",
+      "Our team will be in touch with further details on the cancellation process"
+    ],
+    "ideal_reply_traits": [
+      "Clear and concise language",
+      "Empathetic tone",
+      "Specific next steps provided"
+    ]
+  },
+  {
+    "id": "email_017",
+    "subject": "Cancelling my account - thanks for the great service!",
+    "customer_email_body": "Hi there, I just wanted to let you know that I've decided to cancel my account. I've really enjoyed using your platform and I think it's a great tool, but my team has decided to go in a different direction. Thanks so much for all your help - your support team has been amazing! I really appreciate it.",
+    "category": "cancellation",
+    "sentiment": "happy",
+    "urgency": "low",
+    "prior_thread_summary": "The customer had previously reached out to the support team to ask about customizing their inbox workflow, and the team provided a helpful guide on how to do so.",
+    "reference_reply": "Thank you so much for your kind words about our platform and support team! We're sorry to see you go, but we're glad we could provide you with a positive experience. To cancel your account, we'll need to confirm a few details with you. Our team will be in touch within the next 24 hours to finalize the cancellation process and answer any questions you may have. If there's anything we can do to change your mind or if you have any feedback, please don't hesitate to let us know.",
+    "reference_reply_key_points": [
+      "The customer's account will be cancelled",
+      "The support team will confirm details with the customer",
+      "The customer will be contacted within 24 hours to finalize the cancellation process"
+    ],
+    "ideal_reply_traits": [
+      "Warm and appreciative tone",
+      "Clear explanation of next steps",
+      "Open invitation for feedback or questions"
+    ]
+  },
+  {
+    "id": "email_018",
+    "subject": "Unacceptable Shared Inbox Performance",
+    "customer_email_body": "I'm extremely frustrated with the performance of your shared inbox platform. Our team has been experiencing constant delays and errors when trying to respond to customer emails. This is not only affecting our productivity but also our reputation. We've tried reaching out to your support team before, but the issues persist. I demand a resolution to this problem ASAP.",
+    "category": "complaint",
+    "sentiment": "angry",
+    "urgency": "high",
+    "prior_thread_summary": null,
+    "reference_reply": "I apologize for the unacceptable performance of our shared inbox platform and the impact it's having on your team's productivity and reputation. I'm going to escalate this issue to our technical team, who will investigate and provide a solution. In the meantime, I'd like to offer you a temporary workaround to mitigate the delays and errors. Please let me know if you're available for a quick call to discuss the details.",
+    "reference_reply_key_points": [
+      "The issue will be escalated to the technical team for investigation",
+      "A temporary workaround will be offered to mitigate the delays and errors",
+      "A call will be scheduled to discuss the details of the workaround"
+    ],
+    "ideal_reply_traits": [
+      "Empathetic tone to acknowledge the customer's frustration",
+      "Clear explanation of the next steps to resolve the issue",
+      "Offer of a temporary solution to mitigate the problem"
+    ]
+  },
+  {
+    "id": "email_019",
+    "subject": "Having trouble with shared inbox setup",
+    "customer_email_body": "Hi, I'm trying to set up a shared inbox for my team but I'm getting really confused. We've been trying to follow the instructions but nothing seems to be working. Can you help me figure out what's going on? I've looked at the tutorials and I think we've done everything right, but the emails just aren't showing up in the shared inbox. What am I missing?",
+    "category": "complaint",
+    "sentiment": "confused",
+    "urgency": "medium",
+    "prior_thread_summary": "The customer had previously reached out to the support team for help with setting up their account, and was provided with a tutorial link to follow. However, they are still experiencing issues.",
+    "reference_reply": "I apologize for the frustration you're experiencing with setting up your shared inbox. I'd be happy to help you troubleshoot the issue. Can you please confirm that you've completed all the steps outlined in our tutorial, and also check that your team members have accepted their invitations to join the shared inbox? If you're still having trouble, our team can schedule a call to walk you through the process and ensure everything is set up correctly.",
+    "reference_reply_key_points": [
+      "Confirm completion of all tutorial steps",
+      "Verify team members have accepted shared inbox invitations",
+      "Schedule a call with the support team for further assistance"
+    ],
+    "ideal_reply_traits": [
+      "Clear and concise language",
+      "Empathetic tone to acknowledge customer frustration",
+      "Actionable next steps to resolve the issue"
+    ]
+  },
+  {
+    "id": "email_020",
+    "subject": "Issue with shared inbox functionality",
+    "customer_email_body": "Hi, I'm having some issues with the shared inbox feature in your platform. Sometimes, emails are not being assigned to the correct person and it's causing some confusion. I've checked the settings and everything looks fine, but the issue persists. Can you please help me figure out what's going on?",
+    "category": "complaint",
+    "sentiment": "neutral",
+    "urgency": "low",
+    "prior_thread_summary": null,
+    "reference_reply": "Thank you for reaching out to us about the issue with the shared inbox feature. I apologize for the inconvenience this has caused. Our team would be happy to help you troubleshoot the issue. Can you please provide us with more details about the issue, such as the specific emails that are not being assigned correctly and the settings you have in place? This will help us to better understand the problem and provide a solution.",
+    "reference_reply_key_points": [
+      "Our team will help troubleshoot the issue",
+      "More details are needed to understand the problem",
+      "The customer will be provided with a solution"
+    ],
+    "ideal_reply_traits": [
+      "Clear and concise language",
+      "Empathetic tone",
+      "Actionable next steps"
+    ]
+  }
+]

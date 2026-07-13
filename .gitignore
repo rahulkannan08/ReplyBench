@@ -10,8 +10,9 @@ dist/
 build/
 *.egg
 
-# Generated data (regenerated on clean run)
-data/dataset.json
+# Generated data -- dataset.json is INCLUDED in the repo so reviewers
+# don't need 20 API calls just to generate synthetic data.
+# data/dataset.json  <-- intentionally tracked
 
 # Results (regenerated on each run)
 results/
